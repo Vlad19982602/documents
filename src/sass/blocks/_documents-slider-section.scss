@@ -75,10 +75,12 @@
 .documents-slider .swiper-wrapper .swiper-slide img {
 	object-fit: cover;
 	transition: .5s;
+	filter: grayscale(80%);
 }
 
 .documents-slider .swiper-wrapper .swiper-slide:hover img {
 	transform: scale(1.1);
+	filter: grayscale(0);
 }
 
 .documents-slider .popup {
